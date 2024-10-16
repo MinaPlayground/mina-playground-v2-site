@@ -11,16 +11,10 @@ import {
   NavbarMenuToggle,
   Link,
   Button,
-  Divider,
   cn,
 } from "@nextui-org/react";
 import {Icon} from "@iconify/react";
 import Image from "next/image";
-
-const menuItems = [
-  "Home",
-  "Tutorials"
-];
 
 const BasicNavbar = React.forwardRef<HTMLElement, NavbarProps>(
   ({classNames = {}, ...props}, ref) => {
